@@ -91,9 +91,19 @@ Esses testes permitiram identificar falhas importantes relacionadas principalmen
 
 ---
 
+## Observações adicionais
+
+Durante a execução dos testes foram identificados alguns comportamentos relevantes:
+
+- O campo de data apresentou comportamento adequado ao impedir ou corrigir automaticamente valores inválidos, como meses inexistentes.
+- Foi observado que os dados cadastrados permanecem disponíveis no mesmo navegador/dispositivo, porém não aparecem ao acessar a aplicação em outro computador, indicando possível persistência local no navegador.
+- A aplicação não apresenta mensagem informando quando não existem cursos cadastrados, o que pode gerar dúvida sobre o estado da listagem.
+
+---
+
 ## Casos de teste
 
-Link da planilha contendo cenários e casos de teste:
+Planilha contendo cenários e casos de teste:
 
 (em breve)
 
@@ -101,9 +111,9 @@ Link da planilha contendo cenários e casos de teste:
 
 ## Evidências de execução
 
-As evidências da execução dos testes estão disponíveis na pasta de evidências.
+As evidências da execução dos testes estão disponíveis na pasta:
 
-(em breve)
+/evidencias
 
 ---
 
