@@ -96,8 +96,9 @@ Esses testes permitiram identificar falhas importantes relacionadas principalmen
 Durante a execução dos testes foram identificados alguns comportamentos relevantes:
 
 - O campo de data apresentou comportamento adequado ao impedir ou corrigir automaticamente valores inválidos, como meses inexistentes.
-- Foi observado que os dados cadastrados permanecem disponíveis no mesmo navegador/dispositivo, porém não aparecem ao acessar a aplicação em outro computador, indicando possível persistência local no navegador.
+- Foi observado que os dados cadastrados permanecem disponíveis no mesmo navegador, porém não aparecem ao acessar a aplicação em outro navegador, mas no mesmo dispositivo, indicando possível persistência local no navegador.
 - A aplicação não apresenta mensagem informando quando não existem cursos cadastrados, o que pode gerar dúvida sobre o estado da listagem.
+- Poderia haver mais um campo informando a quantidade estimda de duração do curso.
 
 ---
 
@@ -105,7 +106,7 @@ Durante a execução dos testes foram identificados alguns comportamentos releva
 
 Planilha contendo cenários e casos de teste:
 
-(em breve)
+https://docs.google.com/spreadsheets/d/1ePzMaoneXhV3yIVQDwdhzGahgh69D1GX/edit?usp=sharing&ouid=101862305223762775289&rtpof=true&sd=true
 
 ---
 
